@@ -6,5 +6,14 @@ public class Main {
         for (int i = 0; i < vetor1.length; i++) {
             System.out.println(vetor1[i]);
         }
+
+        int[] vetor2 = {190, 25, 30, 60, 85};
+
+        int count = 0;
+
+        while (count < vetor2.length) {
+            System.out.println(vetor2[count]);
+            count++;
+        }
     }
 }
