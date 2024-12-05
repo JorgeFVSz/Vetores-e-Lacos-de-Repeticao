@@ -9,11 +9,21 @@ public class Main {
 
         int[] vetor2 = {190, 25, 30, 60, 85};
 
-        int count = 0;
+        int count1 = 0;
 
-        while (count < vetor2.length) {
-            System.out.println(vetor2[count]);
-            count++;
+        while (count1 < vetor2.length) {
+            System.out.println(vetor2[count1]);
+            count1++;
         }
+
+        int[] vetor3 = {19, 75, 38, 69, 35};
+
+        int count2 = 0;
+
+        do {
+            System.out.println(vetor3[count2]);
+            count2++;
+        } while (count2 < vetor3.length);
+
     }
 }
